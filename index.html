@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+    <title>My First Simple Calculator</title>    
+  </head>
+  <body>
+      <div class="container mt-4 p-4">
+       <h3 class="text-center mt-4"> Welcome to the Calculator</h3>
+        <div id="Input"class="row justify-content-center m-4">
+          <!-- <input type="text" class="input_field m-2" id="input_field"> -->
+          <label for="text" class="input_field m-2 text-center p-2" id="input_field"></label>
+        </div>
+          <div class="row justify-content-center my-1">
+      
+          <button class=" button mx-1 btn btn-outline btn-light" id="reset_btn" onclick="reset()">C</button>
+          <button class=" button mx-1 btn btn-outline btn-light"
+          onclick="operationSubtraction()" id="operator">-</button>
+          
+     
+        
+      </div>
+        
+      <div class="row justify-content-center my-2">
+      
+          <button class=" button mx-1 btn btn-outline btn-light"
+          onclick="number07()" id="number7">7</button>
+          <button class=" button mx-1 btn btn-outline btn-light"
+          onclick="number08()" id="number8">8</button>
+          <button class=" button mx-1 btn btn-outline btn-light"
+          onclick="number09()" id="number9">9</button>
+          <button class=" button mx-1 btn btn-outline btn-light"
+          onclick="operationMultiply()" id="operator">*</button>
+     
+        
+      </div>
+      
+      <div class="row justify-content-center my-2">
+      
+          <button class="button mx-1 btn btn-outline btn-light"
+          onclick="number04()" id="number4">4</button>
+          <button class="button mx-1 btn btn-outline btn-light"
+          onclick="number05()" id="number5">5</button>
+          <button class="button mx-1 btn btn-outline btn-light"
+          onclick="number06()" id="number6">6</button>
+          <button class="button mx-1 btn btn-outline btn-light"
+          onclick="operationDivide()" id="operator">/</button>
+     
+        
+        
+      </div>
+      
+ <div class="row justify-content-center my-1">
+      
+          <button class="button mx-1 btn btn-outline btn-light"
+          onclick="number01()" id="number1">1</button>
+          <button class="button mx-1 btn btn-outline btn-light"
+          onclick="number02()" id="number2">2</button>
+          <button class="button mx-1 btn btn-outline btn-light"
+          onclick="number03()" id="number3">3</button>
+          <button class="button mx-1 btn btn-outline btn-light"
+          onclick="operationAddition()" id="operator">+</button>
+           
+      </div>
+      
+ <div class="row justify-content-center my-1">
+      
+          <button class="button mx-1 btn btn-outline btn-light"
+          onclick="number00()" id="number0">0</button>
+          <button class="button mx-1 btn btn-outline btn-light" id="ansBtn" onclick="ans()">Ans</button>
+      </div>
+      
+      
+    </div>
+    <script src="/app.js"></script>
+  
+ </body>
+</html>
